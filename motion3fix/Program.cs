@@ -31,7 +31,7 @@ namespace motion3fix{
             }
 
             if(CIO.requestUserInput("Do you alos want to apply those fixes to the model3.json?") == 0) {
-                CIO.sendMSG(msgType.info, "add fices paths to models.json...");
+                CIO.sendMSG(msgType.info, "add fixes paths to models.json...");
                 s = utils.getModelJson();
                 foreach(TMotion motion in motions) {
                     s = utils.fixModelPath(s, motion.path);
