@@ -11,6 +11,12 @@ I try to figure out how to make a generaly fix for that but in the end this anim
 # How to use
 For users it is recomented to use the executable provited.
 
-Place the exe inside the folder of the model you want to fix and start it.
+Place the exe inside the folder of the model you want to fix and start it. (mode 1)
+OR
+Place the exe inside the root Folder of all Models you want do fix. (mode2)
 Follow the instructions of the programm. (Yes, that is all)
+
+# Knwon Issues
+in Mode 2 (bulk) it is nessesary that ALL folders containing models with .moc3 files otherwise the application will detect this as a error and will shut down.
+(This will be fixed in a further version)
 
