@@ -1,10 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Version>1.1.0</Version>
+    <Authors>Baromeus</Authors>
+    <Product>Motion3Fix</Product>
+    <Description>Tool for correcting corrupted motions of live2D models for usability in a web-api.</Description>
   </PropertyGroup>
 
 </Project>
